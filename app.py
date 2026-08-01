@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+            "model": "openai/gpt-oss-20b:free",
             "messages": [
                 {
                     "role": "system",
