@@ -139,7 +139,7 @@ def processar_triagem():
         # ----------------------------------------------------------------------
 
         payload = {
-            "model": "",
+            "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
             "messages": [
                 {
                     "role": "system",
